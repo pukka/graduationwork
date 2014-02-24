@@ -1,0 +1,325 @@
+﻿@charset "utf-8";
+/*------卒業制作2014公式ページ-------*/
+
+body {
+    margin:0px auto;
+    font-family:"ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝",'Hiragino Mincho ProN',serif;
+}
+header, section, nav, #main, footer{
+    /*border:1px #000 solid;*/
+    margin: 0px auto;
+    width:960px;
+    padding:10px;
+}
+header {
+    height:100px;
+}
+section{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-480px;
+    margin-top:-350px;
+    height:700px;
+}
+/*----------モーダルウィンドウ----------*/
+.modal{display:none;}
+
+.content{
+    position: fixed;
+    z-index:1000;
+    background: #fff;
+    width:700px;
+    left:50%;
+    top:50%;
+    padding:10px;
+    height: 500px;
+    font-family: "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", sans-serif;
+   /* border:1px #000 solid; */
+  /*  border-radius:20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px; */
+}
+.content h2 {
+    color:#222;
+    font-size:30px;
+    margin:5px;
+    font-family:"ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif;
+}
+.content img{
+    float:right;
+}
+.content #when_access{
+    float:left;
+    /*border:1px #000 solid;*/
+    width:440px;
+    height:350px;
+}
+.content p{
+   /* float:left; */
+    margin:10px 0px;
+    padding:0px;
+    color:#222;
+    font-size:16px;
+}
+.content p.openevent {
+    font-size:20px;
+}
+.content p.howtogo{
+    margin:10px 0px;
+}
+.content p.source {
+    font-size:12px;
+}
+.content p.link {
+    line-height:60px;
+}
+.content p.copyright {
+    font-size:20px;
+}
+.content p.facebook{
+    margin: 0px;
+    font-size:16px;
+    padding:0px;
+}
+.concept{
+    position: fixed;
+    z-index:1000;
+    background: #fff;
+    width:690px;
+    left:50%;
+    top:50%;
+    height: 400px;
+}
+.news{
+    position: fixed;
+    z-index:1000;
+    background: #fff;
+    width:690px;
+    left:50%;
+    top:50%;
+    height: 400px;
+}
+.access{
+    position: fixed;
+    z-index:1000;
+    background: #fff;
+    width:690px;
+    left:50%;
+    top:50%;
+    height: 400px;
+}
+.contact{
+    position: fixed;
+    z-index:1000;
+    background: #fff;
+    width:690px;
+    left:50%;
+    top:50%;
+    height: 400px;
+}
+.bk{
+    position: fixed;
+    z-index:999;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -moz-opacity:0.50;
+}
+.about_bk{
+    background:#b8c7d2;
+}
+.concept_bk{
+    background:#b8c7d2;
+}
+.access_bk{
+    background:#b8c7d2;
+}
+.contact_bk{
+    background:#b8c7d2;
+}
+.close {
+    cursor: pointer;
+    border:1px #000 solid;
+    /*border-radius:10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; */
+    width:40px;
+    height:20px;
+    text-align:center ;
+    line-height:20px;
+    font-size:40px;
+}
+section #main {
+    width:700px;
+    height:600px;
+}
+section .switch{
+    /*float:left;*/
+    /*width: 150px;
+    height: 150px;
+    margin: 50px;*/
+    /*border:1px #000 solid;*/
+    cursor: pointer;
+}
+section #concept_fukidashi {
+    position:absolute;
+    top: 0px;
+    left: 80px;
+    width: 150px;
+    height: 100px;
+    text-align:center;
+    line-height:45px;
+    font-size:26px;
+    color:#295075;
+    background-image:url(../img/fukidashi.png);
+}
+section #news_fukidashi {
+    position:absolute;
+    top: 30px;
+    right: 130px;
+    width: 150px;
+    height: 100px;
+    text-align:center;
+    line-height:45px;
+    font-size:26px;
+    color:#295075;
+    background-image:url(../img/fukidashi.png);
+}
+section #access_fukidashi {
+    position:absolute;
+    top: 255px;
+    left: 150px;
+    width: 150px;
+    height: 100px;
+    text-align:center;
+    line-height:45px;
+    font-size:26px;
+    color:#295075;
+    background-image:url(../img/fukidashi.png);
+}
+section #link_fukidashi {
+    position:absolute;
+    top: 370px;
+    right: 430px;
+    width: 150px;
+    height: 100px;
+    text-align:center;
+    line-height:45px;
+    font-size:26px;
+    color:#295075;
+    background-image:url(../img/fukidashi.png);
+}
+section .about_s{
+    position:absolute;
+    top: 70px;
+    left: 200px;
+    /*width:150px;
+    height:150px;
+    background-image:url(../img/1.png);*/
+}
+section .concept_s{
+    position:absolute;
+    top: 100px;
+    right: 20px;
+    /*width:150px;
+    height:150px;
+    background-image:url(../img/2.png);*/
+}
+section .access_s{
+    position:absolute;
+    top: 350px;
+    left: 220px;
+  /*  width:150px;
+    height:150px;
+    background-image:url(../img/3.png);*/
+}
+section .contact_s{
+    position:absolute;
+    top: 430px; /*250*/
+    right: 340px; /*340*/
+   /* width:150px;
+    height:150px;
+    background-image:url(../img/4.png); */
+}
+section .five{
+    position:absolute;
+    top:160px;
+    left:10px;
+}
+
+section .six{
+    position:absolute;
+    top: 180px;
+    left: 410px;
+}
+
+section .seven{
+    position:absolute;
+    top: 10px;
+    right: 270px;
+}
+section .eight{
+    position:absolute;
+    bottom: 200px;
+    right: 80px;
+}
+section .contents{
+    width:700px;
+    height:600px;
+    border:1px #000 solid;
+    float:right;
+    padding: 10px;
+    margin:30px 0px;
+}
+section a:link{
+    color:blue;
+}
+section a:visited{
+    color:blue;
+}
+section a:hover{
+    color:red;
+}
+section a:active{
+    color:red;
+}
+section a{
+    font-size:19px;
+}
+section .ism{
+    position:absolute;
+    bottom: 35px;
+    right: 20px;
+}
+section #title{
+    /*border:1px #000 solid;*/
+    position:absolute;
+    bottom: 20px;
+    left: 20px;
+    height:150px;
+    width:550px;
+}
+section #title h1{
+    margin:0px;
+    color:#333;
+}
+section #title h1.text_one {
+    font-size:38px;
+    line-height:50px;
+    margin:0px;
+}
+section #title h1.text_two {
+    font-size:50px;
+    line-height: 50px;
+    margin:0px;
+}
+section #title h1.text_three{
+    font-size:32px;
+    line-height:50px;
+    margin:0px;
+}
+
