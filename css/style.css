@@ -15,6 +15,7 @@ header {
     height:100px;
 }
 section{
+    /*border:1px #000 solid;*/
     position:absolute;
     left:50%;
     top:50%;
@@ -168,7 +169,7 @@ section .switch{
 section #concept_fukidashi {
     position:absolute;
     top: 0px;
-    left: 80px;
+    left: 50px;
     width: 150px;
     height: 100px;
     text-align:center;
@@ -191,7 +192,7 @@ section #news_fukidashi {
 }
 section #access_fukidashi {
     position:absolute;
-    top: 255px;
+    top: 155px;
     left: 150px;
     width: 150px;
     height: 100px;
@@ -203,8 +204,8 @@ section #access_fukidashi {
 }
 section #link_fukidashi {
     position:absolute;
-    top: 370px;
-    right: 430px;
+    top: 270px;
+    right: 410px;
     width: 150px;
     height: 100px;
     text-align:center;
@@ -215,7 +216,7 @@ section #link_fukidashi {
 }
 section .about_s{
     position:absolute;
-    top: 70px;
+    top: 20px;
     left: 200px;
     /*width:150px;
     height:150px;
@@ -231,7 +232,7 @@ section .concept_s{
 }
 section .access_s{
     position:absolute;
-    top: 350px;
+    top: 250px;
     left: 220px;
   /*  width:150px;
     height:150px;
@@ -239,8 +240,8 @@ section .access_s{
 }
 section .contact_s{
     position:absolute;
-    top: 430px; /*250*/
-    right: 340px; /*340*/
+    top: 290px; /*250*/
+    right: 310px; /*340*/
    /* width:150px;
     height:150px;
     background-image:url(../img/4.png); */
@@ -253,8 +254,8 @@ section .five{
 
 section .six{
     position:absolute;
-    top: 180px;
-    left: 410px;
+    top: 140px;
+    left: 380px;
 }
 
 section .seven{
@@ -295,6 +296,30 @@ section .ism{
     bottom: 35px;
     right: 20px;
 }
+
+section #message {
+    /*border:1px #000 solid;*/
+    position:absolute;
+    bottom: 170px;
+    left: 20px;
+    height:120px;
+    width:630px;
+    padding: 0px;
+    margin: 0px;
+}
+section #message p {
+    font-size:14px;
+    padding:0px;
+    margin:0px;
+    color: #295075;
+}
+
+section #message a {
+    font-size:14px;
+    padding: 0px;
+    margin: 0px;
+}
+
 section #title{
     /*border:1px #000 solid;*/
     position:absolute;
